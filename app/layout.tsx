@@ -32,12 +32,12 @@ export default function RootLayout({
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
             <Header />
-            <Analytics />
             {children}
             <Footer />
 
             <Toaster position="top-right" />
             <ThemeSwitch />
+            <Analytics />
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
       </body>
