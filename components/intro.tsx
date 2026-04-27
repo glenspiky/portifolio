@@ -86,7 +86,7 @@ export default function Intro() {
 
             <div className="flex gap-3">
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/glen-barasa-940ba0301/"
                 target="_blank"
                 className="p-3 rounded-lg border border-gray-300 dark:border-white/20 hover:scale-110 transition"
               >
@@ -94,7 +94,7 @@ export default function Intro() {
               </a>
 
               <a
-                href="https://github.com"
+                href="https://github.com/glenspiky/"
                 target="_blank"
                 className="p-3 rounded-lg border border-gray-300 dark:border-white/20 hover:scale-110 transition"
               >
