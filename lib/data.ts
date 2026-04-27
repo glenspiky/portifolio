@@ -1,7 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaReact, FaNodeJs } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import { SiMongodb, SiExpress } from "react-icons/si";
+
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
@@ -35,51 +37,67 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Kenya Science Fair - Regional Finalist",
+    location: "Kenya",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Participated in a national science competition and advanced to the regional stage through project-based innovation. Developed research and presentation skills.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022 - 2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "CS50x: Intro to Computer Science",
+    location: "Harvard University (Online)",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Completed rigorous coursework covering C, Python, SQL, and web security. Gained a deep understanding of memory management, algorithms, and data structures.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Frontend Developer (Independent Projects)",
+    location: "Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Built responsive web applications using React, Next.js, and TypeScript. Focused on reusable components, clean UI architecture, and performance optimization.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - Present",
+  },
+  {
+    title: "Backend Fundamentals ",
+    location: "Remote",
+    description:
+      "Implemented CRUD operations, authentication flows, and REST APIs using Node.js and Express. Integrated MongoDB for persistent data storage in production-ready apps.",
+    icon: React.createElement(FaNodeJs),
+    date: "2024 - Present",
+  },
+  {
+    title: "Cybersecurity Enthusiast",
+    location: "Remote",
+    description:
+      "Studying web security vulnerabilities including IDOR and business logic flaws. Applying a 'security-first' mindset to frontend engineering and software architecture.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2025 - Present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "E-Commerce Store",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Modern full-stack e-commerce application with product browsing, cart management, authentication, and admin dashboard.",
+    tags: ["Next.js", "React", "MongoDB", "Tailwind", "TypeScript"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Task Manager API",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "CRUD backend system for managing tasks with REST API architecture, authentication, and MongoDB database integration.",
+    tags: ["Node.js", "Express", "MongoDB", "JWT"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Portfolio Website",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Personal developer portfolio showcasing projects, skills, and experience with smooth animations and responsive design.",
+    tags: ["React", "Next.js", "Tailwind", "Framer Motion"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -92,16 +110,11 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
+  "Express.js",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Tailwind CSS",
+  "Git",
+  "REST APIs",
+  "CRUD",
+  "Responsive Design",
 ] as const;
