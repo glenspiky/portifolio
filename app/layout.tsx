@@ -6,12 +6,14 @@ import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Glen | Frontend Developer ",
-  description: "Glen is a self-taught Frontend Developer based in Kenya, specializing in building secure, high-performance web apps with Next.js.",
+  description:
+    "Glen is a self-taught Frontend Developer based in Kenya, specializing in building secure, high-performance web apps with Next.js.",
 };
 
 export default function RootLayout({
@@ -30,6 +32,7 @@ export default function RootLayout({
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
             <Header />
+            <Analytics />
             {children}
             <Footer />
 
